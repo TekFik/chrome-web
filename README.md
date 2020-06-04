@@ -1,4 +1,4 @@
-# chrome-web
+# Browse Google Chrome from Web Browser inside a Docker Container 
 
 If you have a requirement to run Google Chrome browser inside a container we can easily achieve this by using TekFik provided CentOS 7 container. 
 
