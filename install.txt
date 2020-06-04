@@ -1,0 +1,17 @@
+- Build image 
+  $ docker build -t chrome-web .
+
+- View images
+  $ docker images 
+
+- Execute the following command to lunch the chrome container
+  $ docker run --name chrome --privileged -p 3000:3000 -d chrome-web
+
+- Browse Chrome inside the container with the following URL
+  http://localhost:3000
+  
+  
+  Refer to following article if you want to get a ready made container without building your own. 
+   https://www.tekfik.com/kb/devops/google-chrome-on-docker-container
+  
+
